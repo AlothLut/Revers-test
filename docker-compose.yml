@@ -1,0 +1,11 @@
+---
+
+version: '2'
+
+services:
+  php-test:
+    build: ./
+    container_name: php-test
+    volumes:
+      - ./src:/var/php-test
+    tty: true
