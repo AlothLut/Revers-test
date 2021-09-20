@@ -5,7 +5,7 @@
 - Docker-compose
 
 ## To check, follow these steps:
-1) run ````docker-compose up -d --build```
+1) run ```docker-compose up -d --build```
 
 2) go in container ```docker-compose exec php-test bash```
 
